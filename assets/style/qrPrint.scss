@@ -1,0 +1,54 @@
+.qr {
+    &-code {
+        text-align: center;
+        font-size: small;
+
+        &-container {
+            cursor: pointer;
+            margin: 0 auto;
+            width: 48mm;
+            display: flex;
+            flex-wrap: nowrap;
+            grid-gap: 1mm;
+            background-color: #efefef;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            padding-bottom: 2mm;
+
+            border-bottom: 1px solid #999;
+        }
+
+        &-title {
+            font-size: 2.60mm;
+            font-weight: 400;
+            font-optical-sizing: auto;
+            padding: 0.25mm;
+
+            & .sku {
+                font-size: 4mm;
+                font-family: "M PLUS 1p", sans-serif;
+                font-weight: 600;
+            }
+        }
+
+        &-svg {
+            background-color: blue;
+            width: 12mm;
+            height: auto;
+            padding: 0.5mm;
+        }
+    }
+
+    &-button {
+        &.button {
+            margin-bottom: 0.5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5em;
+        }
+
+    }
+}
