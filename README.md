@@ -7,12 +7,14 @@
 **Author:** Nesar Ahmed  
 **Author URI:** [https://nesarahmed.dev/](https://nesarahmed.dev/)  
 **License:** GPLv2 or later  
-**Text Domain:** print-sku-label-thermal
-**Domain Path:** /languages/
+**Text Domain:** print-sku-label-thermal 
+
 
 ## Description
 
 The **WooCommerce Print SKU Label Thermal** enables you to print Sku and Title for storage bucket tag using 58mm Thermal Printer.  
+## Preview
+![Print Preview](assets/img/preview.PNG)
 
 ### Version 2.0
 
